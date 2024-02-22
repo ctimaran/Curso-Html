@@ -1,0 +1,36 @@
+<script>
+  //Author:  Carlos Timaran
+  //Date:    29/08/2023
+  //Realizar un diagrama de flujo que permita crear 
+  //los números pares comprendidos entre el 1 y el 29 
+  //con su respectiva sumatoria, una vez calculada 
+  //dicha sumatoria, calcular e imprimir su cuadrado, 
+  //cubo y promedio.
+
+  var par = 2;
+  var suma = 0;
+
+  document.writeln("Presentado por: Carlos Timarán <br>");
+  document.writeln("Calculo de sumatoria, cuadrado, cubo y promedio <br>");
+
+  while(par < 29){
+    document.writeln(par,"<br>");
+    suma = suma + par;
+    //suma+=par;
+    par = par + 2;
+    
+    //par+=2;
+    //par=+2;
+  }
+
+  var cuadrado = suma * suma;
+  var cubo = cuadrado * suma;
+  var promedio = suma / 14;
+
+  document.writeln("La sumatoria es: ", suma);
+  document.writeln("La sumatoria es: ", suma);
+  document.writeln("La sumatoria es: ", suma);
+
+  
+
+</script>
