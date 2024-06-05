@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento de prueba</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        #encabezado{
+            height: 10%;
+            width: 100%;
+            color:aliceblue;
+            background-color: black;
+            text-align: center;
+        }
+
+        #contenedorprincipal{
+            display: flex;
+        }
+
+        #barralateral{
+            height: 80vh;
+            width: 20%;
+            background-color: aquamarine;
+        }
+
+        #contenido{
+            flex-grow: 1;
+            height: 80vh;
+            background-color: blueviolet;
+        }
+
+        #piedepagina{
+            width: 100%;
+            height: 10%;
+            background-color: brown;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div id="encabezado"> 
+        Titulo
+    </div>
+    <div id="contenedorprincipal">
+        <div id="barralateral">
+            Menú
+        </div>
+        <div id="contenido">
+            <h2>Contenido</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut ab doloremque totam officia tempora quaerat
+            facere, quo et commodi possimus debitis magnam quibusdam delectus quae! Rerum nesciunt ducimus laboriosam.
+        </div>
+    </div>
+    <div id="piedepagina">
+        IEM Santa Teresita
+    </div>
+
+</body>
+</html>
